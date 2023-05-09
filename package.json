@@ -7,7 +7,6 @@
   },
   "name": "exercicio_landing_page_evento",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "acorn": "^8.8.2",
@@ -110,6 +109,7 @@
   },
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
